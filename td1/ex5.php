@@ -42,13 +42,12 @@
             echo "<table>","<thead>","<tr>","<th>","id_pers","</th>","<th>","nom","</th>","<th>","prenom","</th>","</tr>","</thead>";
             echo "<tbody>";
             function affichageTableau(array $tab): void {
-                for ($i=0; $i<count($tab);) {
+                for ($i=0; $i<count($tab); $i++) {
                     echo "<tr>";
                     foreach($tab[$i] as $cle=>$valeur) {
                         echo "<td>", $cle, " ", $valeur ,"</td>";
                     } 
                     echo "</tr>";
-                    $i++;
                 }
             }
             affichageTableau($tableauPersonnage);
