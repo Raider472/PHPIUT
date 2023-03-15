@@ -9,5 +9,14 @@
 </head>
 <body>
     <p>test</p>
+    <?php
+        require "../modele/Connexion.php";
+        $dbConnect = new Connexion("mysql", "db2", "bddSalle"); 
+        $requete = "SELECT * FROM SALLE";
+        $res = $dbConnect->execSQL($requete);
+        foreach($res as $lesresultats) {
+            echo $lesresultats["num_salle"] . "<br>";
+        }
+    ?>
 </body>
 </html>
