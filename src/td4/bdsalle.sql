@@ -37,6 +37,6 @@ CREATE TABLE `TYPE_EQUIPT` (
 -- ----------------------------
 --  Records 
 -- ----------------------------
-INSERT INTO `contient` VALUES ('F39','1','16'), ('F39','2','1'), ('F39','4','12'), ('F39','5','1'), ('F39','9','16'), ('F39','10','16'), ('F39','11','16');
+INSERT INTO `CONTIENT` VALUES ('F39','1','16'), ('F39','2','1'), ('F39','4','12'), ('F39','5','1'), ('F39','9','16'), ('F39','10','16'), ('F39','11','16');
 INSERT INTO `SALLE` VALUES ('B01',NULL,'RdC'), ('AA','Amphithéâtre A','RdC'), ('AB','Amphithéâtre B','RdC'), ('B09',NULL,'RdC'), ('C05',NULL,'RdC'), ('B16','Labo de langue','1'), ('F13','machine PC','1'), ('E23',NULL,'2'), ('C14',NULL,'1'), ('E36',NULL,'3'), ('F39','machine PC','3'), ('E27',NULL,'2');
 INSERT INTO `TYPE_EQUIPT` VALUES ('1','chaise',NULL), ('2','bureau',NULL), ('3','table simple',NULL), ('4','table double',NULL), ('5','vidéo-projecteur',NULL), ('6','tableau VP','spécialement conçu pour VP'), ('7','tableau blanc',NULL), ('8','tableau craie',NULL), ('9','ordinateur',NULL), ('10','souris',NULL), ('11','clavier',NULL), ('12','téléviseur',NULL);

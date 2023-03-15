@@ -1,8 +1,6 @@
 <?php
-
     class Connexion {
         private PDO $db;
-
         function __construct(string $SGBD, string $Host, string $dbName, string $UserPassword = "root") {
             $db_config["SGBD"] = $SGBD;
             $db_config["HOST"] = $Host;
@@ -17,7 +15,6 @@
                 echo $e->getMessage();
             }
         }
-
         function execSQL(string $req, array $valeur=[]) : array {
             try {
                 $resultat = $this->db->prepare($req);
