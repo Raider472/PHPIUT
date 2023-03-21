@@ -1,0 +1,14 @@
+[{
+    "idpers": "1",
+    "nom": "Laroche",
+    "prenom": "Pierre",
+    "login": "laroche",
+    "mdp": "pierre"
+    },
+    {
+    "idpers": "2",
+    "nom": "Bougdira",
+    "prenom": "Nathalie",
+    "login": "bougdira",
+    "mdp": "nathalie"
+}]
